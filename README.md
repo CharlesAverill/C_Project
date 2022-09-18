@@ -20,3 +20,7 @@ A template for C Projects using CMake and Doxygen for building and documentation
 - `doxygen==1.9.1^`
 - `clang-format==14.0.0^`
 - A C compiler
+
+## Notes
+
+This template repository is licensed with the [Unlicense](LICENSE), so derived repositories from this template are free to be relicensed as their owners see fit.
