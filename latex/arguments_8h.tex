@@ -1,0 +1,65 @@
+\hypertarget{arguments_8h}{}\doxysection{include/arguments.h File Reference}
+\label{arguments_8h}\index{include/arguments.h@{include/arguments.h}}
+{\ttfamily \#include $<$argp.\+h$>$}\newline
+Include dependency graph for arguments.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{arguments_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{arguments_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structArguments}{Arguments}}
+\begin{DoxyCompactList}\small\item\em Structure containing command line arguments. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structArguments}{Arguments}} \mbox{\hyperlink{arguments_8h_ac9817a3ea34e47aa6dd60b6952c57e63}{Arguments}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{arguments_8h_a47f7e0b4f340d758c1344db449577f2e}{parse\+\_\+args}} (\mbox{\hyperlink{structArguments}{Arguments}} $\ast$args, int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Parse arguments into an \mbox{\hyperlink{structArguments}{Arguments}} structure. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{arguments_8h_ac9817a3ea34e47aa6dd60b6952c57e63}\label{arguments_8h_ac9817a3ea34e47aa6dd60b6952c57e63}} 
+\index{arguments.h@{arguments.h}!Arguments@{Arguments}}
+\index{Arguments@{Arguments}!arguments.h@{arguments.h}}
+\doxysubsubsection{\texorpdfstring{Arguments}{Arguments}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structArguments}{Arguments}} \mbox{\hyperlink{structArguments}{Arguments}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{arguments_8h_a47f7e0b4f340d758c1344db449577f2e}\label{arguments_8h_a47f7e0b4f340d758c1344db449577f2e}} 
+\index{arguments.h@{arguments.h}!parse\_args@{parse\_args}}
+\index{parse\_args@{parse\_args}!arguments.h@{arguments.h}}
+\doxysubsubsection{\texorpdfstring{parse\_args()}{parse\_args()}}
+{\footnotesize\ttfamily void parse\+\_\+args (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structArguments}{Arguments}} $\ast$}]{args,  }\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Parse arguments into an \mbox{\hyperlink{structArguments}{Arguments}} structure. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em args} & \mbox{\hyperlink{structArguments}{Arguments}} struct to parse into \\
+\hline
+{\em argc} & Number of arguments \\
+\hline
+{\em argv} & List of arguments as strings \\
+\hline
+\end{DoxyParams}

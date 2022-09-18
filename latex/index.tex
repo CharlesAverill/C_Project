@@ -1,0 +1,22 @@
+\label{index_md_README}%
+\Hypertarget{index_md_README}%
+ A template for C Projects using CMake and Doxygen for building and documentation generation, respectively.\hypertarget{index_autotoc_md1}{}\doxysection{Features}\label{index_autotoc_md1}
+
+\begin{DoxyItemize}
+\item Includes automatically look inside of the {\ttfamily include} directory
+\item By including {\ttfamily \mbox{\hyperlink{info_8h}{info.\+h}}}, variables defined in {\ttfamily CMake\+Lists.\+txt} are exposed to the program, such as the project\textquotesingle{}s name and version information
+\item Argument parsing
+\item Scripts to format, compile, and run the program, script to build documentation with Doxygen
+\begin{DoxyItemize}
+\item Doxygen formatting can be modified in {\ttfamily Doxyfile}
+\item Project code formatting can be modified in {\ttfamily .clang-\/format}
+\end{DoxyItemize}
+\item Github Action to auto-\/generate documentation with Doxygen and publish to Github Pages
+\end{DoxyItemize}\hypertarget{index_autotoc_md2}{}\doxysection{Requirements}\label{index_autotoc_md2}
+
+\begin{DoxyItemize}
+\item {\ttfamily cmake==3.\+13.\+0$^\wedge$}
+\item {\ttfamily doxygen==1.\+9.\+1$^\wedge$}
+\item {\ttfamily clang-\/format==14.\+0.\+0$^\wedge$}
+\item A C compiler 
+\end{DoxyItemize}
