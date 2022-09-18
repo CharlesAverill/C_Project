@@ -1,0 +1,13 @@
+# Ubuntu clang-format version 14.0.0-1ubuntu1
+---
+BasedOnStyle: LLVM
+IndentWidth: 4
+---
+Language: Cpp
+DerivePointerAlignment: false
+PointerAlignment: Left
+ReflowComments: false
+BreakBeforeBraces: Linux
+ColumnLimit: 100
+AllowShortEnumsOnASingleLine: false
+---

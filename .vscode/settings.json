@@ -1,0 +1,16 @@
+{
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/include/**",
+        "${workspaceFolder}/include/",
+        "${userHome}/Purple/include/"
+    ],
+    "C/C++ Include Guard.Macro Type": "Filename",
+    "C/C++ Include Guard.Remove Extension": false,
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x86",
+    "clang.cflags": [
+        "-I${workspaceRoot}/include/**",
+        "-I${workspaceRoot}/include/"
+    ],
+}
