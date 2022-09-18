@@ -11,6 +11,8 @@ A template for C Projects using CMake and Doxygen for building and documentation
 	- Doxygen formatting can be modified in `Doxyfile`
 	- Project code formatting can be modified in `.clang-format`
 - Github Action to auto-generate documentation with Doxygen and publish to Github Pages
+	- A `gh-pages` branch must exist for this Action to function without error
+	- View docs [here](https://charles.systems/C_Project/)
 
 ## Requirements
 
