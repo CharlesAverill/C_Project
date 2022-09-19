@@ -4,7 +4,7 @@
 
 \begin{DoxyItemize}
 \item Includes automatically look inside of the {\ttfamily include} directory
-\item By including {\ttfamily \mbox{\hyperlink{info_8h}{info.\+h}}}, variables defined in {\ttfamily CMake\+Lists.\+txt} are exposed to the program, such as the project\textquotesingle{}s name and version information
+\item By including {\ttfamily info.\+h}, variables defined in {\ttfamily CMake\+Lists.\+txt} are exposed to the program, such as the project\textquotesingle{}s name and version information
 \item Argument parsing
 \item Scripts to format, compile, and run the program, script to build documentation with Doxygen
 \begin{DoxyItemize}
@@ -19,9 +19,13 @@
 \end{DoxyItemize}\hypertarget{index_autotoc_md2}{}\doxysection{Requirements}\label{index_autotoc_md2}
 
 \begin{DoxyItemize}
+\item For CMake
+\begin{DoxyItemize}
 \item {\ttfamily cmake==3.\+13.\+0$^\wedge$}
+\end{DoxyItemize}
 \item {\ttfamily doxygen==1.\+9.\+1$^\wedge$}
 \item {\ttfamily clang-\/format==14.\+0.\+0$^\wedge$}
 \item A C compiler
-\end{DoxyItemize}\hypertarget{index_autotoc_md3}{}\doxysection{Notes}\label{index_autotoc_md3}
+\end{DoxyItemize}\hypertarget{index_autotoc_md3}{}\doxysection{Setup}\label{index_autotoc_md3}
+To configure the directory for either CMake or Autotools, run {\ttfamily cmake\+\_\+setup.\+sh} or {\ttfamily autotools\+\_\+setup.\+sh}\hypertarget{index_autotoc_md4}{}\doxysection{Notes}\label{index_autotoc_md4}
 This template repository is licensed with the \mbox{[}Unlicense\mbox{]}(LICENSE), so derived repositories from this template are free to be relicensed as their owners see fit. 
