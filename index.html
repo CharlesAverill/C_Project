@@ -66,12 +66,12 @@ $(function() {
   <div class="headertitle"><div class="title">C_Project </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md_README"></a> A template for C Projects using CMake and Doxygen for building and documentation generation, respectively.</p>
+<div class="textblock"><p ><a class="anchor" id="md_README"></a> A template for C Projects using either [CMake, Autotools] and Doxygen for building and documentation generation, respectively.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Features</h1>
 <ul>
 <li>Includes automatically look inside of the <code>include</code> directory</li>
-<li>By including <code>info.h</code>, variables defined in <code>CMakeLists.txt</code> are exposed to the program, such as the project's name and version information</li>
+<li>By including <code>info.h</code>, variables defined in <code>CMakeLists.txt</code> or <code>include/autotools_info.h.in</code> are exposed to the program, such as the project's name and version information</li>
 <li>Argument parsing</li>
 <li>Scripts to format, compile, and run the program, script to build documentation with Doxygen<ul>
 <li>Doxygen formatting can be modified in <code>Doxyfile</code></li>
