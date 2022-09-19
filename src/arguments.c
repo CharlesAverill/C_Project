@@ -3,7 +3,7 @@
 #include "arguments.h"
 #include "info.h"
 
-const char* argp_program_version = PACKAGE_STRING;
+const char* argp_program_version = PROJECT_NAME_AND_VERS;
 const char* argp_program_bug_address = "bug_email@example.com";
 static char doc[] = "A program to print out the words \"Hello World!\"";
 static char args_doc[] = "PROGRAM";

@@ -24,3 +24,5 @@ rm -r bin build
 rm CMakeCache.txt
 rm -r CMakeFiles
 rm -r include/stamp-h1
+rm src/helloworld
+rm info.h.in include/info.h.in
