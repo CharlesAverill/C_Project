@@ -12,7 +12,7 @@ file (GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS "src/*.c")
 
 add_compile_options(-pedantic-errors)
 
-configure_file(include/info.h.in info.h @ONLY)
+configure_file(include/cmake_info.h.in info.h @ONLY)
 include_directories(build)
 
 include_directories(include)

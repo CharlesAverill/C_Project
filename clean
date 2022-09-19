@@ -1,0 +1,26 @@
+rm -rf autom4te.cache
+rm -r src/.deps/
+rm Makefile
+rm Makefile.in
+rm src/Makefile.in
+rm src/Makefile
+rm config.status
+rm install-sh
+rm missing
+rm config.log
+rm aclocal.m4
+rm depcomp
+rm configure
+rm compile
+rm -f src/main.o
+rm -rf src/jupiter.dSYM
+rm config.guess
+rm config.sub
+rm configure.ac~
+rm configure~
+rm -rf m4
+rm ltmain.sh
+rm -r bin build
+rm CMakeCache.txt
+rm -r CMakeFiles
+rm -r include/stamp-h1

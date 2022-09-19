@@ -3,7 +3,7 @@
 #include "arguments.h"
 #include "info.h"
 
-const char* argp_program_version = PROJECT_NAME_AND_VERS;
+const char* argp_program_version = PACKAGE_STRING;
 const char* argp_program_bug_address = "bug_email@example.com";
 static char doc[] = "A program to print out the words \"Hello World!\"";
 static char args_doc[] = "PROGRAM";
@@ -23,15 +23,13 @@ error_t parse_opt(int key, char* arg, struct argp_state* state)
 {
     Arguments* arguments = state->input;
 
-    int found = 0;
-
     switch (key) {
     case 'e':
         arguments->echo = arg;
         break;
     case ARGP_KEY_ARG:
         // Check for too many arguments
-        if (state->arg_num > 0) {
+        if (state->arg_num >= 0) {
             argp_usage(state);
         }
         break;

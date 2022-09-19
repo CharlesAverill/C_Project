@@ -58,6 +58,13 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 
+# Autotools
+configure
+configure~
+*.m4
+autom4te.cache/
+aux-dist/
+
 # GDB
 .gdb_history
 

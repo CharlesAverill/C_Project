@@ -16,10 +16,14 @@ A template for C Projects using CMake and Doxygen for building and documentation
 
 ## Requirements
 
-- `cmake==3.13.0^`
+- For CMake
+	- `cmake==3.13.0^`
 - `doxygen==1.9.1^`
 - `clang-format==14.0.0^`
 - A C compiler
+
+## Setup
+To configure the directory for either CMake or Autotools, run `cmake_setup.sh` or `autotools_setup.sh`
 
 ## Notes
 

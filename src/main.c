@@ -13,8 +13,6 @@
  */
 int main(int argc, char* argv[])
 {
-    printf("Hello World!\n");
-
     // Parse arguments
     Arguments* args = malloc(sizeof(Arguments));
     if (args == NULL) {
@@ -23,6 +21,8 @@ int main(int argc, char* argv[])
     }
 
     parse_args(args, argc, argv);
+
+    printf("Hello World!\n");
     printf("%s\n", args->echo);
 
     return 0;
