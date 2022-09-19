@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['options_0',['options',['../arguments_8c.html#abc1fd3a47aea6a8944038c9100eb9135',1,'arguments.c']]]
+  ['main_0',['main',['../main_8h.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.c'],['../main_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.c']]],
+  ['main_2ec_1',['main.c',['../main_8c.html',1,'']]],
+  ['main_2eh_2',['main.h',['../main_8h.html',1,'']]]
 ];
