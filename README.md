@@ -1,11 +1,11 @@
 # C_Project
 
-A template for C Projects using CMake and Doxygen for building and documentation generation, respectively. 
+A template for C Projects using either [CMake, Autotools] and Doxygen for building and documentation generation, respectively. 
 
 ## Features
 
 - Includes automatically look inside of the `include` directory
-- By including `info.h`, variables defined in `CMakeLists.txt` are exposed to the program, such as the project's name and version information
+- By including `info.h`, variables defined in `CMakeLists.txt` or `include/autotools_info.h.in` are exposed to the program, such as the project's name and version information
 - Argument parsing
 - Scripts to format, compile, and run the program, script to build documentation with Doxygen
 	- Doxygen formatting can be modified in `Doxyfile`
