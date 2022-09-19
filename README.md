@@ -26,7 +26,7 @@ A template for C Projects using either [CMake, Autotools] and Doxygen for buildi
 
 ## Setup
 
-To configure the directory for either CMake or Autotools, run `setup.sh [either "cmake" or "autotools" here]`
+To configure the directory for either CMake or Autotools, run `setup.sh [either "cmake" or "autotools" here]`. After this, it should be possible to run the program with just `run.sh`
 
 ## Notes
 
