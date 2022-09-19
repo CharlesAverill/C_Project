@@ -13,6 +13,8 @@ A template for C Projects using either [CMake, Autotools] and Doxygen for buildi
 - Github Action to auto-generate documentation with Doxygen and publish to Github Pages
 	- A `gh-pages` branch must exist for this Action to function without error
 	- View docs [here](https://charles.systems/C_Project/)
+- `compile.sh` will compile the project
+- `run.sh` will compile and run the project
 
 ## Requirements
 
