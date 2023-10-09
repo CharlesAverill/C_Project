@@ -14,3 +14,6 @@ elif [ "$1" = "autotools" ]; then
 	sed -i 's/cmake_compile.sh/autotools_compile.sh/' run.sh
 	mv include/info_autotools.h.in info.h.in
 fi
+git checkout -b gh-pages
+git push origin gh-pages
+git checkout main
