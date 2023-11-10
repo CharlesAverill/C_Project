@@ -4,10 +4,12 @@ if [ "$1" = "cmake" ]; then
 	rm AUTHORS COPYING ChangeLog INSTALL NEWS
 	rm configure.ac
 	rm autotools_compile.sh
+ 	mv cmake_compile.sh compile.sh
 elif [ "$1" = "autotools" ]; then
 	rm CMakeLists.txt
 	rm include/cmake_info.h*
 	rm cmake_compile.sh
+ 	mv autotools_compile.sh compile.sh
 	sed -i 's/PROJECT_NAME_AND_VERS/PACKAGE_STRING/' src/arguments.c
 	sed -i 's|EXECUTABLE_PATH="$SCRIPT_DIR/bin/helloworld"|EXECUTABLE_PATH="$SCRIPT_DIR/src/helloworld"|' run.sh
 	sed -i 's|! -d "$SCRIPT_DIR/bin"|! -d "$SCRIPT_DIR/src"|' run.sh
@@ -17,3 +19,4 @@ fi
 git checkout -b gh-pages
 git push origin gh-pages
 git checkout main
+rm setup.sh
